@@ -1,20 +1,9 @@
-fin-sight-ai-101
+in-sight-ai-101
 ==============================
 
 Learn machine learning fundamentals by detecting anomalies in financial data using Python and PySpark.
 
-Project Organization
-```
-my_pyspark_project/
-│
-├── README.md
-├── setup.py                 # If you want to package it
-├── requirements.txt         # Python dependencies
-├── pyproject.toml           # Optional modern packaging
-│
-├── config/
-│   └── job_config.yaml      # Job parameters, schema paths, etc.
-│
+
 ├── jobs/
 │   ├── __init__.py
 │   ├── job1.py              # Entry point for Job 1

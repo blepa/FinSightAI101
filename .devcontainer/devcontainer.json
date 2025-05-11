@@ -1,15 +1,15 @@
 {
-    "name": "Fabric-Spark-Emulator",
+    "name": "Spark 4.0 Dev",
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "features": {
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {
-            "moby": true,
-            "azureDnsAutoDetection": true,
-            "installDockerBuildx": true,
-            "dockerDashComposeVersion": "v1"
+    "remoteUser": "root",
+    "customizations": {
+      "vscode": {
+        "settings": {
+          "python.pythonPath": "/usr/bin/python3"
         }
+      }
     },
     "postCreateCommand": "bash -c './scripts/install-dev-tools.sh'"
 }

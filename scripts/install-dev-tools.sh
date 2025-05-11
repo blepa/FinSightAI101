@@ -6,8 +6,12 @@ java --version
 python --version
 spark-submit --version
 
+# Update apt-get
+apt-get update 
+# Install git
+apt-get install -y git
 # Clean up to reduce image size
-sudo apt-get clean && sudo rm -rf /var/lib/apt/lists/
+apt-get clean && rm -rf /var/lib/apt/lists/
 
 # Enable git
-git config --global --add safe.directory /workspaces/codespace-fabric-spark
+git config --global --add safe.directory /workspaces/*
