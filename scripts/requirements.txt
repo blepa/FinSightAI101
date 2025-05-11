@@ -1,7 +1,12 @@
 # Python dependencies
+requests
 pyspark
 delta-spark
 
 pytest
 pandas
 PyArrow
+
+grpcio
+grpcio-status
+
